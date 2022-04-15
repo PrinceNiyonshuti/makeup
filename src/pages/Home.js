@@ -48,7 +48,7 @@ function Home() {
           <div className="row">
             <div className="col-lg-3 d-flex mb-sm-4 ">
               <div className="staff">
-                <div className="img mb-4" style={{backgroundImage: "url(images/person_1.jpg)"}}></div>
+                <div className="img mb-4" style={{backgroundImage: "url(images/bg_0.jpg)"}}></div>
                 <div className="info text-center">
                   <h3><Link to="teacher-single.html">Fausca</Link></h3>
                   <span className="position">Stylist</span>
@@ -125,7 +125,7 @@ function Home() {
         	</div>
         	<div className="col-md-4 ">
         		<Link to="#" className="work-entry">
-        			<img src="images/photoShoot.jpg" className="img-fluid" style={{ height:"410px" }} alt="Colorlib Template"/>
+                <img src="images/photoShoot.jpg" className="img-fluid" alt="Colorlib Template"/>
         			<div className="info d-flex align-items-center">
         				<div>
         					<div className="icon mb-4 d-flex align-items-center justify-content-center">

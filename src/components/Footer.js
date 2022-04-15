@@ -11,8 +11,7 @@ function Footer() {
 							<h2 className="ftco-heading-2">About Us</h2>
 							<p>
 								Fosca_makeup is a small business for a girl named Fosca who
-								specializes in makeup especially known as Makeup while working
-								with another makeup artist named Isabella
+								specializes in makeup especially known as Makeup .
 							</p>
 							<ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 								<li className="ftco-animate">
