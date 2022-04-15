@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
@@ -50,7 +50,7 @@ function Home() {
               <div className="staff">
                 <div className="img mb-4" style={{backgroundImage: "url(images/person_1.jpg)"}}></div>
                 <div className="info text-center">
-                  <h3><a href="teacher-single.html">Fausca</a></h3>
+                  <h3><Link to="teacher-single.html">Fausca</Link></h3>
                   <span className="position">Stylist</span>
                   <div className="text">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -62,7 +62,7 @@ function Home() {
               <div className="staff">
                 <div className="img mb-4" style={{backgroundImage: "url(images/person_2.jpg)"}}></div>
                 <div className="info text-center">
-                  <h3><a href="teacher-single.html">Isabella</a></h3>
+                  <h3><Link to="teacher-single.html">Isabella</Link></h3>
                   <span className="position">Fashionist</span>
                   <div className="text">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -82,7 +82,7 @@ function Home() {
               <h3>Save up to 25% Off</h3>
               <h2 className="mb-4">Student Discount</h2>
               <p className="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              <p><a href="#" className="btn btn-white btn-outline-white px-4 py-3">Book Now</a></p>
+              <p><Link to="#" className="btn btn-white btn-outline-white px-4 py-3">Book Now</Link></p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ function Home() {
         </div>
         <div className="row">
         	<div className="col-md-4 ">
-        		<a href="#" className="work-entry">
+        		<Link to="#" className="work-entry">
         			<img src="images/work-1.jpg" className="img-fluid" alt="Colorlib Template "/>
         			<div className="info d-flex align-items-center">
         				<div>
@@ -108,10 +108,10 @@ function Home() {
 		        			<h3>Weeding Makeup</h3>
 	        			</div>
         			</div>
-        		</a>
+        		</Link>
         	</div>
         	<div className="col-md-4 ">
-        		<a href="#" className="work-entry">
+        		<Link to="#" className="work-entry">
         			<img src="images/work-2.jpg" className="img-fluid" alt="Colorlib Template"/>
         			<div className="info d-flex align-items-center">
         				<div>
@@ -121,10 +121,10 @@ function Home() {
 		        			<h3>Bridal Shower Makeup</h3>
 	        			</div>
         			</div>
-        		</a>
+        		</Link>
         	</div>
         	<div className="col-md-4 ">
-        		<a href="#" className="work-entry">
+        		<Link to="#" className="work-entry">
         			<img src="images/photoShoot.jpg" className="img-fluid" style={{ height:"410px" }} alt="Colorlib Template"/>
         			<div className="info d-flex align-items-center">
         				<div>
@@ -134,7 +134,7 @@ function Home() {
 		        			<h3>PhotoShoot Makeup</h3>
 	        			</div>
         			</div>
-        		</a>
+        		</Link>
         	</div>
         </div>
     	</div>
