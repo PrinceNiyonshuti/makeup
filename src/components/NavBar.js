@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 function NavBar() {
     return (
         <>
-            {/* <div className="hero-wrap js-fullheight" style={{backgroundImage: "url('/images/bg_1.jpg')"}} data-stellar-background-ratio="0.5">
+            <div className="hero-wrap js-fullheight" style={{backgroundImage: "url('/images/bg_0.jpg')"}} data-stellar-background-ratio="0.5">
                 <div className="overlay"></div>
                 <div className="container">
                     <div className="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
-                    <div className="col-md-8 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+                    <div className="col-md-8  text-center" data-scrollax=" properties: { translateY: '70%' }">
                         <div className="icon">
                             <Link to="/" className="logo">
                                 <span className="flaticon-flower"></span>
@@ -20,7 +20,7 @@ function NavBar() {
                     </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
             <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
                 <div className="container">
                 <Link className="navbar-brand" to="/">Fosca MakeUp</Link>
