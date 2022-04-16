@@ -12,7 +12,7 @@ function About() {
 								style={{backgroundImage:" url('/images/bg_3.jpg')", width:" 100%"}}></div>
 						</div>
 						<div className="col-md-6 pl-md-5 ">
-							<h2 className="mb-4">Welcome to Pretty A Beauty Salon Website</h2>
+							<h2 className="mb-4">Welcome to Fosca Makeup Website</h2>
 							<p>
 								The Big Oxmox advised her not to do so, because there were
 								thousands of bad Commas, wild Question Marks and devious
