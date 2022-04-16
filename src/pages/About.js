@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 function About() {
   return (
 		<div>
@@ -55,7 +55,7 @@ function About() {
                   style={{ backgroundImage: " url(images/person_1.jpg)" }}></div>
 							<div className="info text-center">
 									<h3>
-										<a href="teacher-single.html">Mellisa Smith</a>
+										<Link to="teacher-single.html">Mellisa Smith</Link>
 									</h3>
 									<span className="position">Stylist</span>
 									<div className="text">
@@ -75,7 +75,7 @@ function About() {
                   style={{ backgroundImage: " url(images/person_2.jpg)" }}></div>
 							<div className="info text-center">
 									<h3>
-										<a href="teacher-single.html">Marie Mush</a>
+										<Link to="teacher-single.html">Marie Mush</Link>
 									</h3>
 									<span className="position">Fashionist</span>
 									<div className="text">
@@ -95,7 +95,7 @@ function About() {
                   style={{ backgroundImage: " url(images/person_3.jpg)" }}></div>
 						<div className="info text-center">
 									<h3>
-										<a href="teacher-single.html">Ana Jacobson</a>
+										<Link to="teacher-single.html">Ana Jacobson</Link>
 									</h3>
 									<span className="position">Makeup Stylist</span>
 									<div className="text">
@@ -115,7 +115,7 @@ function About() {
                   style={{ backgroundImage: " url(/images/person_4.jpg)" }}></div>
     							<div className="info text-center">
 									<h3>
-										<a href="teacher-single.html">Ivan Dorchsner</a>
+										<Link to="teacher-single.html">Ivan Dorchsner</Link>
 									</h3>
 									<span className="position">Nail Specialist</span>
 									<div className="text">
