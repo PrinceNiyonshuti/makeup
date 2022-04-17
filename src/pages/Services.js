@@ -1,9 +1,15 @@
-import React from 'react'
+/** @format */
 
+import React from "react";
+import Advert from "../components/Advert";
+import ShowCase from "../components/ShowCase";
 function Services() {
-  return (
-    <div>Services</div>
-  )
+	return (
+		<div>
+			<Advert />
+			<ShowCase />
+		</div>
+	);
 }
 
-export default Services
+export default Services;
