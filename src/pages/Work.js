@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Works from "../components/Works";
 function Work() {
   return (
-    <div>Work</div>
+    <div>
+      <Works/>
+    </div>
   )
 }
 
