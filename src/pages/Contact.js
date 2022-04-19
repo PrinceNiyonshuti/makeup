@@ -93,10 +93,11 @@ function Contact() {
 
 			<div>
 				<iframe
+					title="Map"
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185.7185661571068!2d30.048093300244172!3d-1.598344627250986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dc87416284f1d3%3A0xbc6bc80f940f3889!2sByumba%20Regional%20Stadium%2C%20Kibali!5e0!3m2!1sen!2srw!4v1650219195415!5m2!1sen!2srw"
 					width="100%"
 					height="450"
-          style={{ border: "0" }}
+					style={{ border: "0" }}
 					allowfullscreen=""
 					loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"></iframe>
