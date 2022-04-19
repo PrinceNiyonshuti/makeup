@@ -1,6 +1,6 @@
 # Fosca Makeup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fosca_makeup is a website made for a small business for a girl named Fosca who specializes in makeup especially known as Makeup .
 
 ## Available Scripts
 
