@@ -1,3 +1,6 @@
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://user-images.githubusercontent.com/46887030/164062013-bb1a8e45-64a9-4395-85ea-f1efd70900d7.png" width="400"></a></p>
+
 # Fosca Makeup
 
 Fosca_makeup is a website made for a small business for a girl named Fosca who specializes in makeup especially known as Makeup .
