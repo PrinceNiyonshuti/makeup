@@ -9,16 +9,16 @@ function About() {
 						<div className="col-md-6 d-flex ">
 							<div
 								className="img img-about align-self-stretch"
-								style={{backgroundImage:" url('/images/bg_3.jpg')", width:" 100%"}}></div>
+								style={{
+									backgroundImage: " url('/images/bg_3.jpg')",
+									width: " 100%",
+								}}></div>
 						</div>
 						<div className="col-md-6 pl-md-5 ">
-							<h2 className="mb-4">Welcome to Fosca Makeup Website</h2>
+							<h2 className="mb-4">Welcome to Fosca Makeup </h2>
 							<p>
-								The Big Oxmox advised her not to do so, because there were
-								thousands of bad Commas, wild Question Marks and devious
-								Semikoli, but the Little Blind Text didn’t listen. She packed
-								her seven versalia, put her initial into the belt and made
-								herself on the way.
+								Fosca_makeup is a small business for a girl named Fosca who
+								specializes in makeup especially known as Makeup .
 							</p>
 							<p>
 								On her way she met a copy. The copy warned the Little Blind
@@ -35,7 +35,7 @@ function About() {
 					</div>
 				</div>
 			</section>
-      <Experts/>
+			<Experts />
 		</div>
 	);
 }
